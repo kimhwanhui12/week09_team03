@@ -24,7 +24,23 @@ pip install -r requirements.txt
 # 4. 실행
 streamlit run app.py
 ```
+## 설치 및 실행 (MacOS)
 
+```zsh
+# 1. 저장소 받기
+git clone https://github.com/kimhwanhui12/week09_team03.git
+cd week09_team03
+
+# 2. 가상환경 만들고 켜기
+python3 -m venv .venv
+source .venv/bin/activate
+
+# 3. 패키지 설치
+pip install -r requirements.txt
+
+# 4. 실행
+streamlit run app.py
+```
 PowerShell에서 `activate` 실행이 막히면 아래 명령을 한 번 실행한 뒤 다시 시도하세요.
 
 ```powershell
