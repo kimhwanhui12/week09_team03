@@ -24,6 +24,11 @@ pip install -r requirements.txt
 # 4. 실행
 streamlit run app.py
 ```
+PowerShell에서 `activate` 실행이 막히면 아래 명령을 한 번 실행한 뒤 다시 시도하세요.
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+```
 ## 설치 및 실행 (MacOS)
 
 ```zsh
@@ -40,11 +45,6 @@ pip install -r requirements.txt
 
 # 4. 실행
 streamlit run app.py
-```
-PowerShell에서 `activate` 실행이 막히면 아래 명령을 한 번 실행한 뒤 다시 시도하세요.
-
-```powershell
-Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 ```
 
 ## 폴더 구조
